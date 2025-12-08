@@ -1,5 +1,6 @@
 import random
-l=["apple","banana","orange","pineapple"]
+l=["apple", "banana", "orange", "mango", "grapes", "pineapple", "watermelon", "kiwi", "papaya", "strawberry"]
+
 word=l[random.randint(0,3)]
 lives=6
 stages = [
@@ -115,3 +116,4 @@ while(lives>=1):
         
 else:
     print("!!!!!!!!!!!YOU LOST!!!!!!!!!!!!!!!!MAN HANGED!!!!!!!!!!!!!!! ")
+
